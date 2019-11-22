@@ -1,0 +1,51 @@
+
+.img1
+{   
+    position: relative;
+    width: 200px;
+    height:200px;
+    text-align: center;
+    margin: auto;
+}
+.img2
+{
+    align-self: center;
+    transform: scale(0.5) translate(-200px,-200px);
+    transition: .35s ease-in;
+}
+
+.img2:hover{
+    
+    transform: scale(0.6) translate(-170px,-170px);
+}
+.button-master
+{   
+    width:70px;
+    margin: auto;
+   
+}
+
+td
+{
+    padding:4px 10px;
+}
+.error
+{
+    color:red;
+    
+}
+.button-div{
+    display: flex;
+    justify-content: center;
+}
+@media all and (min-width: 480px) {
+    .Login {
+      padding: 60px 0;
+    }
+  
+    .Login form {
+      margin: 0 auto;
+      max-width: 320px;
+    }
+  }
+  

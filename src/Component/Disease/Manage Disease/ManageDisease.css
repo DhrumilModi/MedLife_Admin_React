@@ -1,0 +1,20 @@
+
+button{
+    background-color:transparent ;
+    border: 0;
+    transition: 0.2s ease-in;
+    text-align: center;
+}
+.b1:hover{
+    background-color: rgba(85, 161, 13, 1);
+    color:white;
+    border-radius: 5px;
+    transform: scale(1.5);
+}
+.b2:hover
+{
+    background-color: rgba(255,0,0,0.8);
+    color:white;
+    border-radius: 5px;
+    transform: scale(1.5);
+}
